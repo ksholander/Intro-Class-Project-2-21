@@ -7,8 +7,8 @@ Introduction to Web Development
 About Me
 ======
 
-Instructor : Kevin Sholander
-Email : kevin@learningfuze.com
+* Instructor : Kevin Sholander
+* Email : kevin@learningfuze.com
 
 Agenda
 ======
@@ -29,7 +29,7 @@ Introductions
 Web Overview
 ======
 # Client / Server Architecture
-![client server web architecture](https://github.com/ksholander/Intro-Class-Project-2-21/images/client_server.png)
+![client server web architecture](Intro-Class-Project-2-21/images/client_server.png)
 * **Client**
   * Renders pages within a browser
   * Stores small amounts of local data in cookies or local store
