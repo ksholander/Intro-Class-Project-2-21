@@ -1,15 +1,18 @@
 HTML/CSS
 ======
 
+---
 Introduction to Web Development
 ------
 
+---
 About Me
 ======
 
 * Instructor : Kevin Sholander
 * Email : kevin@learningfuze.com
 
+---
 Agenda
 ======
 
@@ -24,9 +27,11 @@ Agenda
 9. [Next Step Possibilities](#nextsteps)
 10. [Resources](#resources)
 
+---
 <a name="introductions"></a>Introductions
 ======
 
+---
 <a name="weboverview"></a>Web Overview
 ======
 
@@ -71,6 +76,7 @@ Agenda
   * [Tumblr](https://www.tumblr.com)
   * [CSS Zen Garden](http://www.csszengarden.com)
 
+---
 <a name="environment"></a>Development Environment
 ======
 
@@ -135,12 +141,13 @@ Agenda
     * Create a folder called "CSSpractice"
     * Create a folder called "project1"
 
+---
 <a name="htmlfoundations"></a>HTML Foundations
 ======
 
 ## What is HTML?
 
-  * _H_yper_T_ext _M_arkup _L_anguage
+  * <strong>H</strong>yper<strong>T</strong>ext <strong>M</strong>arkup <strong>L</strong>anguage
   * HyperText - active text that performs an action when clicked, such as a link or a button
   * Markup - markers are added to the content to indicate to the browser the intent of the content
   * Language - The language is based on standards that are defined and maintained by the [W3 consortium](http://www.w3.org)
@@ -296,18 +303,23 @@ Agenda
 
 ## Try It!
 
+---
 <a name="cssfoundations"></a>CSS Foundations
 ======
 
+---
 <a name="project"></a>Project
 ======
 
+---
 <a name="tools"></a>Tools
 ======
 
+---
 <a name="checklist"></a>Website Creation Checklist
 ======
 
+---
 <a name="nextsteps"></a>Next Step Possibilities
 ======
 * [Frontend Development Course](http://learningfuze.com/frontend-development) - 
@@ -316,6 +328,7 @@ Agenda
 * [W3 Schools](http://www.w3schools.com) - free, self-paced, online learning courses in HTML, CSS, JavaScript, SQL, PHP, jQuery and more
 * [Code School](http://www.codeschool.com) - web based, self-paced training. Teach yourself
 
+---
 <a name="resources"></a>Resources
 ======
 * [W3C Markup Validator](http://validator.w3.org) - check the validity of your HTML markup
