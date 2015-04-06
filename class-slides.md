@@ -138,38 +138,38 @@ Agenda
     <p>This is a paragraph</p>
 ```
 
-    Note:  
-    The tag is contained within angled brackes "<" and ">".  
-    The closing tag is the same as the tag but has an extra slash "/"
-    The contents are all of the text that is between the opening tag and the closing tag
+   Note:  
+   The tag is contained within angled brackes "<" and ">".  
+   The closing tag is the same as the tag but has an extra slash "/"
+   The contents are all of the text that is between the opening tag and the closing tag
 
 ```
     <h1 id='header1'>This is a header</h1>
 ```
 
-    Note:  
-    The optional attributes have information about the element.  
-    Neither the tag nor the attributes will appear in the rendered page.  
-    They may, however, change _how_ the element will be displayed in the rendered page.
-    Attributes are specified as _name="value"_ and are located within the opening tag.  
-    Some tags require attributes to be set. See [w3schools tag specification](http://www.w3schools.com/tags/tag_p.asp) for information about specific tags.
+   Note:  
+   The optional attributes have information about the element.  
+   Neither the tag nor the attributes will appear in the rendered page.  
+   They may, however, change _how_ the element will be displayed in the rendered page.
+   Attributes are specified as _name="value"_ and are located within the opening tag.  
+   Some tags require attributes to be set. See [w3schools tag specification](http://www.w3schools.com/tags/tag_p.asp) for information about specific tags.
 
 ```
     <p>This paragraph contains <strong>BOLD</strong> characters</p>
 ```
 
-    Note:  
-    Elements can be contained within other elements.  
-    Nested elements must have their closing tag _before_ the closing tag of the element they are contained within.
+   Note:  
+   Elements can be contained within other elements.  
+   Nested elements must have their closing tag _before_ the closing tag of the element they are contained within.
 
 ```
     <img src='url/of/some/image.jpg' />
 ```
 
-    Note:  
-    Some elements are "self closing".  
-    Self closing elements do not require a closing tag. Instead they have a slash before the closing angled bracket "/>"
-    Self closing tags may contain attributes but never have any content.
+   Note:  
+   Some elements are "self closing".  
+   Self closing elements do not require a closing tag. Instead they have a slash before the closing angled bracket "/>"
+   Self closing tags may contain attributes but never have any content.
 
 ## Try It!
 
