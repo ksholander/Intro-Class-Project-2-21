@@ -1,11 +1,11 @@
-HTML/CSS
+# HTML/CSS
 ======
 
----
 Introduction to Web Development
 ------
 
 ---
+
 About Me
 ======
 
@@ -13,6 +13,7 @@ About Me
 * Email : kevin@learningfuze.com
 
 ---
+
 Agenda
 ======
 
@@ -28,10 +29,12 @@ Agenda
 10. [Resources](#resources)
 
 ---
+
 <a name="introductions"></a>Introductions
 ======
 
 ---
+
 <a name="weboverview"></a>Web Overview
 ======
 
@@ -77,6 +80,7 @@ Agenda
   * [CSS Zen Garden](http://www.csszengarden.com)
 
 ---
+
 <a name="environment"></a>Development Environment
 ======
 
@@ -142,6 +146,7 @@ Agenda
     * Create a folder called "project1"
 
 ---
+
 <a name="htmlfoundations"></a>HTML Foundations
 ======
 
@@ -304,22 +309,27 @@ Agenda
 ## Try It!
 
 ---
+
 <a name="cssfoundations"></a>CSS Foundations
 ======
 
 ---
+
 <a name="project"></a>Project
 ======
 
 ---
+
 <a name="tools"></a>Tools
 ======
 
 ---
+
 <a name="checklist"></a>Website Creation Checklist
 ======
 
 ---
+
 <a name="nextsteps"></a>Next Step Possibilities
 ======
 * [Frontend Development Course](http://learningfuze.com/frontend-development) - 
@@ -329,6 +339,7 @@ Agenda
 * [Code School](http://www.codeschool.com) - web based, self-paced training. Teach yourself
 
 ---
+
 <a name="resources"></a>Resources
 ======
 * [W3C Markup Validator](http://validator.w3.org) - check the validity of your HTML markup
