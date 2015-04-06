@@ -12,6 +12,7 @@ About Me
 
 Agenda
 ======
+
 1. [Introductions](#introductions)
 2. [Web Overview](#weboverview)
 3. [Development Environment](#environment)
@@ -28,12 +29,16 @@ Agenda
 
 <a name="weboverview"></a>Web Overview
 ======
+
 ## Client / Server Architecture
+
 ![client server web architecture](https://github.com/ksholander/Intro-Class-Project-2-21/blob/master/images/client_server.png?raw=true)
+
 * **Client**
   * Renders pages within a browser
   * Stores small amounts of local data in cookies or local store
   * Executes client side scripts within browser sandbox
+
 * **Server**
   * Runs web server software such as Apache
   * Responds to requests by sending pages (HTML) and images
@@ -41,21 +46,26 @@ Agenda
   * Able to store large amounts of data in server database
 
 ## Anatomy of a Web Page
+
 * **HTML _(HyperText Markup Language)_** - Carries the page content
   * Text
   * Hyperlinks
   * Images (actually links to images)
   * Markup language, not programming language
+
 * **CSS _(Cascading Style Sheets)_** - Describes the page appearance
   * Rules that pair content with style
   * Allows different rules for different media (small screens, large screens, printers, etc)
+
 * **JavaScript** - Programs the page behavior
   * A C-like object based programming language
   * Runs within the browser
   * Can be used to define navigation behavior, validate form inputs, and control page animations
+
 * **Website** - A bunch of web pages glued together with hyperlinks
 
 ## Examples
+
   * [Google](http://www.google.com)
   * [Yahoo](http://www.yahoo.com)
   * [Tumblr](https://www.tumblr.com)
@@ -63,39 +73,56 @@ Agenda
 
 <a name="environment"></a>Development Environment
 ======
+
 ## Browser (obviously)
-* Chrome
+
+* [Chrome](http://www.google.com/chrome/browser/desktop/index.html)
 
   Open source browser developed by Google. Available across most platforms (Windows, iOS, Linux). Includes very powerful debugging tools for developers. This browser enjoys the largest marketshare amongst all browsers and is a good choice for primary development.
-* Firefox
+
+* [Firefox](http://www.mozilla.org/en-US/firefox/new/)
 
   Open source browser developed by Mozilla (based on the old Netscape Navigator). Plugin developer tools are available. Runs on most platforms. Second most popular browser after Chrome. Make sure to test all of your websites in both Chrome and Firefox at a minimum.
-* Safari
+
+* [Safari](http://support.apple.com/downloads/#safari)
 
   Apple's native browser, also available for Windows and Linux machines. This browser is not very popular outside of Apple machines, but with the popularity of iPhones, it is especially important to test on this browser when designing sites targeted at mobile devices.
+
 * Internet Explorer
 
   Microsoft's browser, which now includes fairly decent developers tools. Due to continuous deliberate inconsistancies programmed into the browser (mostly to increase MS competitive advantage), this browser has fallen out of favor with most users and developers. Still controls about 15% market share, so cannot be overlooked entirely.
+
 ## Text editor (__NOT__ Wordprocessor)
+
 * [Brackets](http://brackets.io)
 
   Designed specifically for web development using web technology. Much more than just a text editor, this tool integrates CSS style previews, JS lint checking, page previewer and debugger, and source code management all into one Integrated Development Environment (IDE).
+
+* [Eclipse](http://www.eclipse.org/downloads/packages/eclipse-php-developers/lunasr2)
+
+  Eclipse is an industry standard open-source IDE for any kind of programming project. There are as many different versions of Eclipse as there are languages that it supports. It is a full featured, but fairly complex tool to learn. The link above is to download a version that supports PHP, JavaScript, HTML and CSS.
+
 * [Sublime Text](http://www.sublimetext.com)
 
-  Free download for evaluation. License requires purchase for continued use.
+  Free download for evaluation. License requires purchase for continued use. A powerful text editor that features syntax highlighting. Moderately priced.
+
 * [Notepad++](http://notepad-plus-plus.org)
 
-  Free, open source editor for MS Windows machines
+  Free, open source editor that supports syntax highlighting.
+
 * [Vim](http://www.vim.org)
 
   An improved version of the vi editor that ships with most UNIX/LINUX systems. Very powerful and flexible editor with a very steep learning curve. Not for the faint of heart.
+
 * Notepad - junk. Do not use
+
 ## Debuggers
 
-   A debugger is a tool that helps developers by exposing the inner workings of the scripts, HTML, and CSS, so that problems, odd behaviors, and bugs can be easily tracked down and fixed
+  A debugger is a tool that helps developers by exposing the inner workings of the scripts, HTML, and CSS, so that problems, odd behaviors, and bugs can be easily tracked down and fixed
+
 ## Server Software and Database
 
-   In order to fully test the behavior of a website, it is important to see how the site will perform on an actual server. Depending on your development machine, LAMP (Linux), WAMP (Windows), or MAMP (iOS), are available as open source, free downloads. These applications convert your computer into a fully functional, Apache based web server with MySQL database.
+  In order to fully test the behavior of a website, it is important to see how the site will perform on an actual server. Depending on your development machine, LAMP (Linux), WAMP (Windows), or MAMP (iOS), are available as open source, free downloads. These applications convert your computer into a fully functional, Apache based web server with MySQL database.
 
 ## Setting Up Your Environment
 
@@ -110,7 +137,9 @@ Agenda
 
 <a name="htmlfoundations"></a>HTML Foundations
 ======
+
 ## What is HTML?
+
   * _H_yper_T_ext _M_arkup _L_anguage
   * HyperText - active text that performs an action when clicked, such as a link or a button
   * Markup - markers are added to the content to indicate to the browser the intent of the content
@@ -119,6 +148,7 @@ Agenda
   * Older versions : HTML, XHTML, HTML4
 
 ## Creating an HTML document
+
   * Document must consist of only simple text (do not use a word processor to create or edit an HTML file)
   * Filename should end with ".html" or ".htm" to indicate that it contains an html document
   * Filename must not have spaces, i.e. use "filename.html" not "file name.html"
@@ -126,12 +156,12 @@ Agenda
   * The rest of the document consists of elements
 
 ## What is an HTML element?
+
   * An element consists of a tag, optional attributes, the element contents, and a closing tag
   * The tag indicates the intent of the content
   * Tags are case insensitive, but it is considered best practice to always use lower case
   * Most, but not all, elements require a closing tag
   * An element may contain other elements
-
   * Examples:
 
 ```
@@ -189,9 +219,11 @@ Agenda
     </body>
 </html>
 ```
+
 * Open the file in your browser (click the lightning bolt on the right side of brackets)
 
 ## Some useful tags
+
 * html
 
   The entire page must be contained within an html element.
@@ -221,12 +253,15 @@ Agenda
   Image tags must contain a src attribute which is a url that points to the image file.
 
 * strong, em
+
   A strong tag indicates text that should appear strongly (as in bold). The em tag indicates text that should be emphasized (as in italics).
 
 * ul, ol
+
   An unordered list is a bullet list. An ordered list is a numbered list. ul and ol elements may only contain list item elements (li). They may not contain paragraphs, headers, images or any other type of tag. Of course, a list item element may contain images or other element types.
 
 * li
+
   A list item must be contained within an unordered (ul) or ordered (ol) list.
 
 
@@ -257,8 +292,9 @@ Agenda
     <img src="https://github.com/ksholander/Intro-Class-Project-2-21/blob/master/images/client_server.png?raw=true" width="400" height="200" />
   </body>
 </html>
+```
 
-##
+## Try It!
 
 <a name="cssfoundations"></a>CSS Foundations
 ======
