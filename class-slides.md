@@ -154,7 +154,7 @@ Agenda
 
   * <strong>H</strong>yper<strong>T</strong>ext <strong>M</strong>arkup <strong>L</strong>anguage
   * HyperText - active text that performs an action when clicked, such as a link or a button
-  * Markup - markers are added to the content to indicate to the browser the intent of the content
+  * Markup - markers  (called tags) are added to the content to indicate to the browser the intent of the content
   * Language - The language is based on standards that are defined and maintained by the [W3 consortium](http://www.w3.org)
   * Current revision is HTML5
   * Older versions : HTML, XHTML, HTML4
@@ -233,8 +233,9 @@ Agenda
 ```
 
 * Open the file in your browser (click the lightning bolt on the right side of brackets)
+* You should see the title appear in the tab at the top of the browser window. The browser window should be empty because we haven't added any content yet.
 
-## Some useful tags
+## Basic HTML tags
 
 * html
 
@@ -260,13 +261,50 @@ Agenda
 
   Paragraphs are blocks of text that are separated from other blocks of text.
 
-* img
+## Try It!
 
-  Image tags must contain a src attribute which is a url that points to the image file.
+* Use Brackets to create another new file in your sandbox folder (Right click in the left project explorer panel and select "New File").
+* Name the file exercise1.html
+* In the editor window, add the DOCTYPE and html, head, and body tags. In the head, add a title tag with the text "HTML Simple Elements".
+* In the body of the document, add each of the header types (h1, h2, h3, etc.) with text "header one", "header two", etc.
+* Add a paragraph after each heading with some text in it.
+* Save the file.
+* Open the file in your browser and check the results.
+
+## More HTML tags
 
 * strong, em
 
   A strong tag indicates text that should appear strongly (as in bold). The em tag indicates text that should be emphasized (as in italics).
+
+* hr
+
+  Horizontal rule - draws a line across the page to create a horizontal separator. This is a self closing tag with no content.
+
+* br
+
+  Break - add a single line break to the document. Not really recommended to control a document layout - CSS is much better.
+
+* a
+
+  Anchor tags are used to add links to your document. A link is active text that, when clicked by the user, will cause the browser to display another part of the document or open another document entirely.
+
+  Anchor tags should specify an "href" attribute which contains the link destination - the URL of the document being pointed to. The content of the element will be the clickable text. An optional "target" attribute will specify how the browser should open the new page. A value of "_blank" means to open in a new window. The default is "_self" which means to load the page into the current window.
+
+* img
+
+  Image tags are used to inform the browser that an image should be loaded and displayed in the document.
+
+  Image tags must contain a src attribute which is a url that points to the image file. Image tags may also contain an optional "width" and/or "height" attribute to specify the size that the image should be displayed. While this is still legal and supported, it is best practice to use CSS to control the layout of the page rather than specifying the values in HTML.
+
+## Try It!
+
+* Edit the "exercise1.html" file you created earlier.
+* Add a link with the text "Search" pointing to the url "http://www.google.com".
+* Find an (appropriate) image online, copy the url and insert an image tag in your document to display that image.
+* Add a horizontal rule to your document.
+* Add a line break to your document.
+* Save the changes and view the document in your browser.
 
 * ul, ol
 
